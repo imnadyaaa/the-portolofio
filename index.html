@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        background-image: url(../img/download\ \(2\).jpeg);
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+  
+    *{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .profile img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius:50% ;
+        border: 2px solid white;
+        padding: 2px;
+        margin: 10px;
+
+    }
+
+    .teks{
+        color: white;
+        
+
+    }
+
+    .profile{
+        display: flex;
+        text-align: center;    
+
+    }
+
+    .description{
+        color: white;
+        position: absolute;
+        left: 50px;
+        top: 30%;
+        font-size: 30px;
+        bottom: 10%;
+
+    }
+
+    .description h2{
+        font-size: 35px;
+        padding-bottom: 20px;
+        margin: 2px;
+    }
+
+    .buttons{
+         display: flex;
+         width: 800px;
+         border: 2px solid white;
+         position: absolute;
+         left: 50%;
+         bottom: 15%;
+         transform: translateX(-50%);
+         
+
+    }
+
+    button{
+            padding: 20px;
+    }
+
+   
+    button:nth-child(1){
+        flex-grow: 1;
+        background-color: antiquewhite;
+      
+    }
+
+      
+    button:nth-child(2){
+        flex-grow: 2;
+        background-color: wheat;
+    } 
+
+    button:nth-child(3){
+        flex-grow: 1;
+        background-color: bisque;
+    }
+
+    button:nth-child(1):hover{
+        opacity: 0.5;
+    }
+
+    button:nth-child(2):hover{
+        opacity: 0.5;
+    }
+
+    button:nth-child(3):hover{
+        opacity: 0.5;
+     }
+
+    .line-project{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .line{
+        border: 2px solid black;
+        height: 0px;
+        width: 80px;
+        align-self: center;
+    }
+
+    .line-project h2{
+        margin: 5px;
+    }
+
+    .projects {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-wrap: wrap ;
+        gap: 20px;
+    }
+
+    .project img{
+        width: 300px;
+        height: 350px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    .project{
+        width: 350px;
+        background-color: antiquewhite;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project p{
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        line-height: 25px;
+
+    }
+
+    .project .date{
+        text-align: justify;
+    }
+
+    .project p:nth-child(3){
+        margin-top: 20px;
+    }
+
+    main{
+        margin-bottom: 25px;
+    }
+
+    footer{
+        background-color: antiquewhite;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        color: black;
+        line-height: 25px;
+        align-content: space-around;
+    }
+
+    .sosmed a {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+    }
+
+
+
+   
+    
+
+
+
+    </style>
+</head>
+<body>
+ <div class="container">
+    <div class="profile">
+            <img src="../img/✿.jpeg" alt="pacarku">
+            <div class="teks">
+                    <h2>ProgrammerWebsite</h2>
+                    <hr/>
+                    <p>I'm a Developer Website</p>
+            </div>    
+    </div>
+   <div class="description">
+                <h2>Hey..there..!</h2>
+                <p>
+                    Welcome to my portfolio website, my name is Nadya naqsabandiyah or often 
+                    uses the pseudonym Programing website. I am an student at
+                    MA Zainul Hasan 1 Genggong and sunghoon girlfried now i'm class X, majoring in programming.
+                </p>
+    </div>  
+    <div class="buttons">
+            <button>Baca Selengkapnya</button>
+            <button>Join Wiht Me</button>
+            <button>Here..up</button>
+    </div>
+ </div>
+ <main>
+<div class="line-project">
+    <div class="line"></div>
+    <h2>My Project</h2>
+    <div class="line"></div>
+</div>
+
+<div class="projects">
+    <div class="project">
+        <img src="../img/226b1bc2-c95b-4980-a35d-4639a11f9d8c.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum animi laboriosam, architecto aut eligendi expedita quibusdam ducimus quis tempore molestias, rem similique. At provident impedit odio velit doloremque iusto aliquam sint aut nobis accusantium. Ipsa repellendus accusamus quo dolor, ut, ea ipsam laborum quae maxime totam, aut ab saepe eaque sequi ipsum quos beatae itaque debitis aperiam repellat officiis necessitatibus ducimus. Necessitatibus, ipsam nisi iure dolores quos ducimus corrupti impedit nobis possimus, nihil officia.</p>
+        <p class="date">This work was completed on 2 may 2025</p>
+     </div>
+
+    <div class="project">
+        <img src="../img/226b1bc2-c95b-4980-a35d-4639a11f9d8c.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum animi laboriosam, architecto aut eligendi expedita quibusdam ducimus quis tempore molestias, rem similique. At provident impedit odio velit doloremque iusto aliquam sint aut nobis accusantium. Ipsa repellendus accusamus quo dolor, ut, ea ipsam laborum quae maxime totam, aut ab saepe eaque sequi ipsum quos beatae itaque debitis aperiam repellat officiis necessitatibus ducimus. Necessitatibus, ipsam nisi iure dolores quos ducimus corrupti impedit nobis possimus, nihil officia.</p>
+        <p class="date">This work was completed on 2 may 2025</p>
+     </div>
+
+    <div class="project">
+        <img src="../img/226b1bc2-c95b-4980-a35d-4639a11f9d8c.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum animi laboriosam, architecto aut eligendi expedita quibusdam ducimus quis tempore molestias, rem similique. At provident impedit odio velit doloremque iusto aliquam sint aut nobis accusantium. Ipsa repellendus accusamus quo dolor, ut, ea ipsam laborum quae maxime totam, aut ab saepe eaque sequi ipsum quos beatae itaque debitis aperiam repellat officiis necessitatibus ducimus. Necessitatibus, ipsam nisi iure dolores quos ducimus corrupti impedit nobis possimus, nihil officia.</p>
+        <p class="date">This work was completed on 2 may 2025</p>
+     </div>
+
+    <div class="project">
+        <img src="../img/226b1bc2-c95b-4980-a35d-4639a11f9d8c.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum animi laboriosam, architecto aut eligendi expedita quibusdam ducimus quis tempore molestias, rem similique. At provident impedit odio velit doloremque iusto aliquam sint aut nobis accusantium. Ipsa repellendus accusamus quo dolor, ut, ea ipsam laborum quae maxime totam, aut ab saepe eaque sequi ipsum quos beatae itaque debitis aperiam repellat officiis necessitatibus ducimus. Necessitatibus, ipsam nisi iure dolores quos ducimus corrupti impedit nobis possimus, nihil officia.</p>
+        <p class="date">This work was completed on 2 may 2025</p>
+     </div>
+
+    <div class="project">
+        <img src="../img/226b1bc2-c95b-4980-a35d-4639a11f9d8c.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum animi laboriosam, architecto aut eligendi expedita quibusdam ducimus quis tempore molestias, rem similique. At provident impedit odio velit doloremque iusto aliquam sint aut nobis accusantium. Ipsa repellendus accusamus quo dolor, ut, ea ipsam laborum quae maxime totam, aut ab saepe eaque sequi ipsum quos beatae itaque debitis aperiam repellat officiis necessitatibus ducimus. Necessitatibus, ipsam nisi iure dolores quos ducimus corrupti impedit nobis possimus, nihil officia.</p>
+        <p class="date">This work was completed on 2 may 2025</p>
+     </div>
+
+    <div class="project">
+        <img src="../img/226b1bc2-c95b-4980-a35d-4639a11f9d8c.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum animi laboriosam, architecto aut eligendi expedita quibusdam ducimus quis tempore molestias, rem similique. At provident impedit odio velit doloremque iusto aliquam sint aut nobis accusantium. Ipsa repellendus accusamus quo dolor, ut, ea ipsam laborum quae maxime totam, aut ab saepe eaque sequi ipsum quos beatae itaque debitis aperiam repellat officiis necessitatibus ducimus. Necessitatibus, ipsam nisi iure dolores quos ducimus corrupti impedit nobis possimus, nihil officia.</p>
+        <p class="date">This work was completed on 2 may 2025</p>
+     </div>
+
+ </div>
+ </main>
+
+ <footer>
+    <div class="address">
+        <h3>My Office Address</h3>
+        <p>Jl. Malioboro <br>Prambanan RT 11 RW 09 Sleman</p>
+      
+    </div>
+
+    <div class="follow">
+        <h3>Follow me</h3>
+        <div class="sosmed">
+        <a href="#" title="Facebook"><i class="fa-facebook-f"></i></a>
+        <a href="#" title="Instagram"><i class="fa-instagram"></i></a>
+        <a href="#" title="Tiktok"><i class="fa-tiktok"></i></a>
+        <a href="#" title="Telegram"><i class="fa-telegram"></i></a>
+        </div>
+        <p class="copy">© 2025 professionalProgremmer</p>
+    </div>
+
+</footer>
+</body>
+</html>
